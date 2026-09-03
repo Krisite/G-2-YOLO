@@ -40,7 +40,7 @@ class Sobel(nn.Module):
         
         return g_raw.view(b, c, h, w)
 
-# --- Core Modules from G²-YOLO ---
+
 
 class GDS_M(nn.Module):
     """
